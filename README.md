@@ -6,7 +6,7 @@ Pick a machine, material, and bit. Carve Card writes a shop card — RPM, feed, 
 
 ## Linux download
 
-The AppImage is on the [Releases](https://github.com/krlloyd/Carve-Card/releases) page (too large for git).
+The AppImage is in [v1.0.0](https://github.com/krlloyd/Carve-Card/releases/tag/v1.0.0) (too large for git).
 
 ```bash
 chmod +x carve-card-1.0.0.AppImage
