@@ -1,0 +1,28 @@
+appId: shop.carvecard.linux
+productName: Carve Card
+copyright: Carve Card
+asar: true
+directories:
+  output: dist-linux
+  buildResources: build
+files:
+  - electron-main.cjs
+  - preload.cjs
+  - ui/**
+  - icons/**
+linux:
+  executableName: carve-card
+  category: Science
+  synopsis: X-Carve feeds and speeds for spindle jobs
+  description: Shop-card calculator for Inventables X-Carve machines. RPM, feed, plunge, depth, and material notes for Easel.
+  target:
+    - target: AppImage
+      arch:
+        - x64
+    - target: deb
+      arch:
+        - x64
+    - target: tar.gz
+      arch:
+        - x64
+  artifactName: carve-card-${version}.${ext}

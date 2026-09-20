@@ -1,0 +1,18 @@
+{
+  "name": "carve-card",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Feeds and speeds for X-Carve spindle jobs",
+  "author": "Carve Card",
+  "homepage": "https://inventables.com",
+  "main": "electron-main.cjs",
+  "desktopName": "carve-card.desktop",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --linux"
+  },
+  "devDependencies": {
+    "electron": "^37.4.0",
+    "electron-builder": "^26.0.12"
+  }
+}
