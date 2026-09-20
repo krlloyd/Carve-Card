@@ -12,7 +12,15 @@ files:
   - icons/**
 linux:
   executableName: carve-card
+  icon: icons
   category: Science
+  desktop:
+    Name: Carve Card
+    Comment: X-Carve feeds and speeds for spindle jobs
+    Categories: Science;Engineering;Utility;
+    Keywords: CNC;X-Carve;feeds;speeds;Easel;Inventables;
+    StartupWMClass: carve-card
+    Icon: carve-card
   synopsis: X-Carve feeds and speeds for spindle jobs
   description: Shop-card calculator for Inventables X-Carve machines. RPM, feed, plunge, depth, and material notes for Easel.
   target:

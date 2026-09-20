@@ -97,18 +97,14 @@ export function LinuxShell({
 
 function Mark() {
   return (
-    <svg viewBox="0 0 40 40" className="linux-no-drag size-7 shrink-0 text-accent" aria-hidden="true">
-      <rect width="40" height="40" rx="10" fill="currentColor" />
-      <g className="text-accent-fg">
-        <path
-          d="M12 12 L28 28 M28 12 L12 28"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="3.2"
-          strokeLinecap="round"
-        />
-        <circle cx="20" cy="20" r="3.4" fill="currentColor" />
-      </g>
+    <svg viewBox="0 0 32 32" className="linux-no-drag size-7 shrink-0" aria-hidden="true">
+      <rect width="32" height="32" rx="8" className="fill-accent" />
+      <rect x="6.5" y="5.5" width="19" height="21" rx="3" className="fill-surface" />
+      <rect x="9.4" y="8.6" width="3.4" height="9.4" rx="0.7" className="fill-accent" />
+      <path d="M8.4 18 L13.8 18 L11.1 23.2 Z" className="fill-accent-hover" />
+      <rect x="14.6" y="9.4" width="8.4" height="1.5" rx="0.75" className="fill-accent" />
+      <rect x="14.6" y="12.4" width="6.8" height="1.5" rx="0.75" className="fill-accent" />
+      <rect x="14.6" y="15.4" width="5.2" height="1.5" rx="0.75" className="fill-accent" />
     </svg>
   );
 }

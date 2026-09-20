@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Carve Card
+GenericName=CNC Feeds and Speeds
+Comment=X-Carve feeds and speeds for spindle jobs
+Exec=carve-card %U
+Icon=carve-card
+Terminal=false
+Categories=Science;Engineering;Utility;
+Keywords=CNC;X-Carve;feeds;speeds;Easel;Inventables;
+StartupNotify=true
+StartupWMClass=carve-card
